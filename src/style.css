@@ -1,0 +1,164 @@
+ body{
+     margin: 0;
+     padding: 0;
+ }
+
+ /* login div starts here */
+#wrapper {
+    position: absolute;
+    width: 20%;
+    background-image: linear-gradient(to bottom right, rgb(119, 0, 255), rgb(0, 247, 255));
+    margin: 5% 35%;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    text-align: center;
+    min-height: 350px;
+}
+#input-1,#input-2 {
+    width: 80%;
+    margin-bottom: 7%;
+    border-radius: 10px;
+    padding: 2% 0;
+    border: 1px solid balck;
+}
+h3 {
+    padding-top: 1%;
+    color: black;
+    padding-bottom: 4%;
+    border-bottom: 1px solid #e8e8e8;
+}
+#anchor1 {
+    margin-left: 45px;
+    float: left;
+    color: black;
+    text-decoration: none;
+}
+#anchor3 {
+    float: right;
+    color: black;
+    padding: 3%;
+    text-decoration: none;
+    border-radius: 60px;
+    margin-right: 1%;
+    margin-bottom: -2%;
+    border: 1px solid black;
+}
+#button {
+    width: 80%;
+    color: white;
+    font-size: medium;
+    margin-top: 5%;
+    background-color: #26d9a3;
+    border: none;
+    padding: 12px 0px;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+#anchor2 {
+    text-decoration: none;
+    color: black;
+}
+/* login div ends */
+/* personal info starts here */
+#display {
+    position: absolute;
+    margin: 5% 35%;
+    background-color: black;
+    padding: 1% 3%;
+    height: 60%;
+    border-radius: 10px;
+}
+h2 {
+    margin-bottom: 2%;
+    color: white;
+}
+.input {
+    width: 80%;
+    margin: 3% 0;
+    padding: 3% 8%;
+}
+#input1 ,#input2 {
+    width: 27%;
+}
+#input2 {
+    margin-left: 6.3%;
+}
+
+#div_button {
+    float: right;
+     margin: 12% 4%;
+    padding: 3% 8%; 
+    background-color: #4CAF50;
+    border: none;
+}
+#male ,#female {
+    color: white;
+}
+#label1 ,#label2 {
+    color: white;
+}
+/* personal info ends here */
+/* nav-bar */
+ul {
+	list-style: none;
+	overflow: auto;
+	background-color: black;
+	z-index: 333;
+}
+li {
+	float: left;
+
+	padding: 15px;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+    font-size: 10x;
+}
+.list {
+	border-style: solid;
+	border-width: 0 1px 0 1px;
+	border-color: white;
+}
+
+.list:hover {
+	background-color: yellowgreen;
+}
+/* nav-bar */
+#main {
+    text-align: center;
+    background: transparent;
+    background-color: palegreen;
+    padding: 5%;
+}
+#date{
+    padding: 1% 0;
+}
+select {
+    width:200px;
+    padding: 1.2% 0;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#book ,#info {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+td {
+    border: 5px solid black;
+    margin: 5%;
+    padding: 3%;
+    width: 10%;
+}
+table {
+    margin: 5%;
+}
